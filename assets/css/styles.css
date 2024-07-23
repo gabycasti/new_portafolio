@@ -8448,6 +8448,31 @@ textarea.form-control-lg {
   visibility: hidden !important;
 }
 
+/* Modificaciones */
+@keyframes fadeInUp {
+  from {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+.fade-in-up {
+  animation: fadeInUp 1s ease-out;
+}
+
+#successMessage {
+  text-align: center; /* Centra el texto */
+  margin-top: 1rem; /* Espacio encima del mensaje */
+}
+
+
+
+
+
 @media (min-width: 576px) {
   .float-sm-start {
     float: left !important;
